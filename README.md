@@ -72,14 +72,3 @@ settings.gradle
 👉 [https://www.mediafire.com/file/hft91vrhpcqfybu/app-debug.apk/file](https://www.mediafire.com/file/hft91vrhpcqfybu/app-debug.apk/file)
 
 ---
-
-## 📸 **Screenshot (Opsional)**
-
-> Tambahkan screenshot aplikasi di sini setelah kamu upload ke GitHub.
-> Gunakan format berikut:
-
-```
-![Home](screenshots/home.png)
-![Kriteria](screenshots/kriteria.png)
-![Hasil SAW](screenshots/result.png)
-```
