@@ -1,71 +1,85 @@
-🎓 Sistem Pakar Seleksi Penerima KIP Menggunakan Metode SAW
+Berikut versi **README.md yang jauh lebih rapi, profesional, dan modern**, lengkap dengan format markdown GitHub + emoji + heading + badge + struktur folder yang bagus.
 
-Aplikasi Android yang digunakan untuk membantu proses seleksi penerima Kartu Indonesia Pintar (KIP) secara objektif menggunakan Metode SAW (Simple Additive Weighting).
-Proyek ini dibuat untuk mempermudah pengambilan keputusan berdasarkan nilai setiap kriteria yang telah dinormalisasi.
+---
 
-✨ Fitur Utama
+# 🎓 **Sistem Pakar Seleksi Penerima KIP Menggunakan Metode SAW**
 
--Manajemen Kriteria (Kode, Nama, Bobot, Jenis Benefit/Cost)
+Aplikasi Android untuk membantu proses seleksi penerima **Kartu Indonesia Pintar (KIP)** secara objektif menggunakan metode **SAW (Simple Additive Weighting)**.
+Tujuan proyek ini adalah mempermudah proses pengambilan keputusan berdasarkan nilai setiap kriteria yang telah dinormalisasi.
 
--Manajemen Calon Penerima
+---
 
--Upload CSV (Import Data)
+## ✨ **Fitur Utama**
 
--Perhitungan otomatis dengan Metode SAW
+* 🎯 **Manajemen Kriteria**
+  (Kode, Nama, Bobot, Jenis Benefit/Cost)
+* 👥 **Manajemen Calon Penerima**
+* 📥 **Import Data melalui CSV**
+* 🧮 **Perhitungan otomatis metode SAW**
+* 🏆 **Menampilkan hasil ranking penerima terbaik**
+* 🎨 **UI modern berbasis Material Design**
+* 💾 **Database lokal menggunakan Room**
 
--Menampilkan Ranking penerima terbaik
+---
 
--Tampilan UI modern berbasis Material Design
+## 🧮 **Metode SAW (Simple Additive Weighting)**
 
--Database lokal menggunakan Room Database
+Metode SAW merupakan teknik pengambilan keputusan multikriteria melalui langkah berikut:
 
-🧮 Metode SAW
+1. **Normalisasi matriks keputusan**
+2. **Mengalikan nilai normal dengan bobot kriteria**
+3. **Menjumlahkan nilai akhir tiap alternatif**
+4. **Mengurutkan nilai untuk mendapatkan ranking terbaik**
 
-Metode SAW (Simple Additive Weighting) adalah salah satu teknik pengambilan keputusan multi-kriteria dengan cara:
+Metode ini sangat cocok digunakan untuk proses seleksi penerima bantuan seperti KIP.
 
--Normalisasi matriks keputusan
+---
 
--Mengalikan dengan bobot
+## 🏗 **Teknologi yang Digunakan**
 
--Menjumlahkan nilai akhir
+* 🟦 Kotlin
+* 🛠 Android Studio
+* 🗄 Room Database
+* 🎨 Material Design Components
+* 📊 CSV File Processing
+* 🔧 MVVM Architecture (opsional)
 
--Menyusun ranking hasil terbaik
+---
 
-🏗 Teknologi yang Digunakan
+## 📂 **Struktur Proyek**
 
--Kotlin
-
--Android Studio
-
--Room Database
-
--Material Design Components
-
--MVVM (opsional)
-
--CSV File Processing
-
-📂 Struktur Proyek
-
+```
 /app
-
   /src
-  
     /main
-    
       /java/com/dio/sistempakarkip
-      
       /res/layout
-      
       /res/drawable
-      
       /res/values
-      
+  build.gradle
+gradle.properties
+settings.gradle
+```
 
-Download ZIP Lengkap nya
+---
 
-https://www.mediafire.com/file/7dj5twzk3spe5ai/sistempakarkip.zip/file
+## 📦 **Download Project**
 
-Download Aplikasi (Versi APK)
+📁 **Download ZIP Lengkap Proyek**
+👉 [https://www.mediafire.com/file/7dj5twzk3spe5ai/sistempakarkip.zip/file](https://www.mediafire.com/file/7dj5twzk3spe5ai/sistempakarkip.zip/file)
 
-https://www.mediafire.com/file/hft91vrhpcqfybu/app-debug.apk/file
+📱 **Download Aplikasi (APK)**
+👉 [https://www.mediafire.com/file/hft91vrhpcqfybu/app-debug.apk/file](https://www.mediafire.com/file/hft91vrhpcqfybu/app-debug.apk/file)
+
+---
+
+## 📸 **Screenshot (Opsional)**
+
+> Tambahkan screenshot aplikasi di sini setelah kamu upload ke GitHub.
+> Gunakan format berikut:
+
+```
+![Home](screenshots/home.png)
+![Kriteria](screenshots/kriteria.png)
+![Hasil SAW](screenshots/result.png)
+```
